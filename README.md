@@ -17,7 +17,7 @@ Kotlin
 1. layer1 - ui : This layer contains the fragments and viewmodel in order to get Data and present it at the view
 2. layer2 - domain: This layer cointains the uses cases and transform the database entities to return data to layer1
 3. layer3 - data: This layer provides a repository and DAO to access SqlLite Database and return entities from database
-<img src="merqueo-architecture.jpg">
+<img src="./merqueo-architecture.jpg">
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

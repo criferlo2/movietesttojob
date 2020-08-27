@@ -12,6 +12,7 @@ Kotlin
 1. Go to "http://deeplink.masdomicilios.club/deeplink.html" in the navigator of the Emulator or Device
 2. Click over the image which contains the link to open the deeplink content
 3. Enjoy the screen with the movie content
+4. Example <a href="https://github.com/criferlo2/movietesttojob/blob/master/deeplink.webm">here</a>
 
 ## Architecture
 1. layer1 - ui : This layer contains the fragments and viewmodel in order to get Data and present it at the view

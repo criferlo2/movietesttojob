@@ -19,5 +19,13 @@ Kotlin
 3. layer3 - data: This layer provides a repository and DAO to access SqlLite Database and return entities from database
 <img src="https://github.com/criferlo2/movietesttojob/blob/master/merqueo-arquitecture.jpg">
 
+## Screens
+1. All movies fetched from remote API
+<img src="https://github.com/criferlo2/movietesttojob/blob/master/1.png">
+2. Detail
+<img src="https://github.com/criferlo2/movietesttojob/blob/master/2.png">
+3. Shopping Cart
+<img src="https://github.com/criferlo2/movietesttojob/blob/master/3.png">
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

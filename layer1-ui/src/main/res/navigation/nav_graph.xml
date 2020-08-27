@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listMovieFragment">
+
+    <fragment
+        android:id="@+id/listMovieFragment"
+        android:name="com.hashitoapps.ui_layer.ListMovieFragment"
+        android:label="fragment_list_movie"
+        tools:layout="@layout/fragment_list_movie" >
+        <action
+            android:id="@+id/action_listMovieFragment_to_detailMovieFragment"
+            app:destination="@id/detailMovieFragment"
+            >
+            <argument
+                android:name="id"
+                app:argType="integer" />
+        </action>
+        <action
+            android:id="@+id/action_listMovieFragment_to_shoppingCartFragment"
+            app:destination="@id/shoppingCartFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/detailMovieFragment"
+        android:name="com.hashitoapps.ui_layer.DetailMovieFragment"
+        android:label="fragment_detail_movie"
+        tools:layout="@layout/fragment_detail_movie">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="app://deeplink.masdomicilios.club/?movie={movie_id}" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.hashitoapps.ui_layer.ShoppingCartFragment"
+        android:label="fragment_shopping_cart"
+        tools:layout="@layout/fragment_shopping_cart" />
+</navigation>

@@ -1,0 +1,6 @@
+rootProject.name='movies-test-to-job'
+include ':app'
+include ':layer1-ui'
+include ':layer2-domain'
+include ':layer3-data'
+include ':layer4-util'
